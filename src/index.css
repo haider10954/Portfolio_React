@@ -38,6 +38,10 @@ body{
 
 /* GENERAL STYLE */
 
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
 h1,
 h2,
 h3,
@@ -62,7 +66,7 @@ section > h5 {
 
 section > h2{
     color: var(--color-primary);
-    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .text-light{
@@ -117,7 +121,7 @@ img{
 }
 
 /* MEDIA QUERY (Mobiles) */
-@media screen and (max-width: 600){
+@media screen and (max-width: 600px){
     .container{
         width: var(--container-width-sm);
     }
