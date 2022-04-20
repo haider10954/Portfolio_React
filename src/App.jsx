@@ -12,11 +12,32 @@ const App = () => {
 return (
     <>
     <Header />
+
     <Nav /> 
+
+    <br />
+    <br />
+
     <About />
+
+    <br />
+    <br />
+
     <Experience />
+
+    <br />
+    <br />
+    
     <Service />
+
+    <br />
+    <br />
+
     <Portfolio />
+
+    <br />
+    <br />
+    
     <Testimonials />
     <Contact />
     <Footer />
